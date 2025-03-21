@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f5f5f5;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.left-panel {
+  width: 50%;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents overflow */
+  padding: 0;
+}
+
+.left-panel img {
+  width: 100%; /* Ensures the image takes full width */
+  height: 100%; /* Ensures it takes full height */
+  object-fit: cover; /* Ensures the image fully covers the panel */
+}
+
+
+.right-panel {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-panel h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.input-group i {
+  font-size: 16px;
+  color: #6a11cb;
+  margin-right: 10px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.options a {
+  text-decoration: none;
+  color: #6a11cb;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: linear-gradient(135deg, #2575fc, #6a11cb);
+}
+
+.register {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.register a {
+  color: #6a11cb;
+  text-decoration: none;
+}
